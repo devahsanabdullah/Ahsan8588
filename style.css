@@ -1,0 +1,42 @@
+body{
+    background-image: url(./priscilla-du-preez-ffSGBn2xTSI-unsplash.jpg);
+   background-position: center;
+   background-size: cover;
+
+   background-repeat: no-repeat;
+}
+.card
+{
+    box-shadow: 0 4px 8px 0 white;
+
+  width: 400px;
+  height: 250px;
+  text-align: center;
+  margin-top: 15%;
+  margin-left: 30%;
+  
+}
+.cardContact
+{
+  padding: 15% 10%;
+}
+.modal-overlay
+{
+  box-shadow: 0 4px 8px 0 white;
+
+  width: 400px;
+  height: 250px;
+  text-align: center;
+  margin-top: 15%;
+  margin-left: 30%;
+  visibility: hidden;
+}
+.close-btn
+{
+  margin-left: 300px;
+top: 150px;
+}
+.open-modal {
+  visibility: visible;
+  z-index: 10;
+}
